@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B5CF6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6366F1;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Background circle -->
+  <circle cx="50" cy="50" r="48" fill="url(#gradient)"/>
+  <!-- H letter stylized -->
+  <path d="M30 25 L30 75 M30 50 L50 50 M50 25 L50 75" 
+        stroke="white" stroke-width="8" stroke-linecap="round" fill="none"/>
+  <!-- AI spark/transformation effect -->
+  <circle cx="70" cy="30" r="4" fill="white" opacity="0.9"/>
+  <circle cx="75" cy="45" r="3" fill="white" opacity="0.7"/>
+  <circle cx="68" cy="55" r="2.5" fill="white" opacity="0.6"/>
+  <!-- Curved arrow representing transformation -->
+  <path d="M60 65 Q75 60 72 45" 
+        stroke="white" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.8"/>
+  <path d="M72 45 L72 52 L78 48" 
+        stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.8"/>
+</svg>

@@ -1,0 +1,25 @@
+project_id = "oziogmfcvqklcuagudre"
+
+[functions.detect-ai]
+verify_jwt = false
+
+[functions.humanize-text]
+verify_jwt = false
+
+[functions.create-paypal-order]
+verify_jwt = false
+
+[functions.capture-paypal-order]
+verify_jwt = false
+
+[functions.test-ai-model]
+verify_jwt = false
+
+[functions.paraphrase-text]
+verify_jwt = false
+
+[functions.summarize-content]
+verify_jwt = false
+
+[functions.improve-writing]
+verify_jwt = false
